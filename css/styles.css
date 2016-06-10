@@ -1,9 +1,15 @@
 body {
-  background-color: #06789E;
+  background-color: #D3E3CC;
   color: black;
   font-size: 25px;
   font-family: monospace;
 }
 .jumbotron {
   background-color: black;
+}
+ul#results {
+  color: #458514;
+  border: dashed;
+  border-color: #2C9E06;
+  background-color: #A7DB93;
 }
