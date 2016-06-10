@@ -1,63 +1,27 @@
-// $(document).ready(function(){
-//   $("#pinput").submit(function(event){
-//     event.preventDefault();
-//     var pingPong = function()
-//     var index = 1, results=""
-//     debugger;
-//     if( index % 3 === 0){
-//       return = "ping"
-//     };
-//     if( index % 5 === 0 ){
-//       return = "pong"
-//     };
-//     if ( index % 15 === 0 ){
-//       return = "pingpong"
-//     }; var results = ("#results").append("<li>" + index +"</li>")
-//
-//     // pingPong = ("#results").append("<li>" + ("#pnum") + "</li>" )
-// });
-// })
-
-
-// $(document).ready(function(){
-//   $("#pinput").submit(function(event){
-//     event.preventDefault();
-//     debugger;
-//     var pingpong = function(results){
-//     var ("#pinput") = index
-//     var index = 1;
-//     while (index <= results)
-//     if (index % 3 === 0){
-//       results += "ping"
-//     };
-//     if (index % 5 === 0){
-//       results += "pong"
-//     };
-//     return results
-//     var results = ""
-//     var results = ("#results").append("<li>" + index + "</li>")
-//   }
-//   });
-//   })
-
-
-var pingpong = function(res){
-  var results = "";
-  if(res % 3 )
-  {return "ping"};
-  if(res % 5 )
-  {return "pong"};
-  if(res % 15 )
-  {return "pingpong"};
-  return (results)
-
-  $(document).ready(function(){
-    $("#pinput").submit(function(event){
-      event.preventDefault();
-      var i = 1;
-      while (i <= $("#pnum").val()){
-        $("#results").text
-      };
+$(document).ready(function(){
+  $("#pinput").submit(function(event){
+    event.preventDefault();
+    list = []
+    $('li.temp').remove();
+    userInput = $("#pinput").val();
+    pingpong(userInput);
     });
   });
-}
+
+  var list = []
+  var pingpong = function(input){
+    var number = parseInt(input);
+    for (var i = 1; i<=number; i++){
+      if(i % 15  === 0){
+      list.push("pingpong");
+    }if(i % 5 === 0 ){
+      list.push("pong");
+    }if(i % 3 === 0){
+      list.push("ping");
+    }else {
+      list.push(i)
+    }
+    list.forEach()
+        $("ul#results").append("<li>" + item +"</li>")
+      };
+    };
