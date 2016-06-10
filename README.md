@@ -1,6 +1,6 @@
 Ping Pong
 
-#### _Input a number to receive a value or text stating "Ping", "Pong" or "Pingpong" _
+#### Input a number to receive a value or text stating "Ping", "Pong" or "Pingpong" 
 
 #### By _Cameron Poore_
 
