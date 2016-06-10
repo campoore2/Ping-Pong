@@ -33,7 +33,7 @@ eMail me at campoore2@gmail.com
 ## Specifications
 
 * Input a value to receive a number or text
-  * Example: 6 and the output is Ping
+  * Example: 6 is the input and the output is Ping
 * Any number divisible by 3, 5, or 15 will return text.
 
 ### License
