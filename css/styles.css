@@ -7,6 +7,7 @@ body {
 }
 .jumbotron {
   background-color: black;
+  color: #71E861;
 }
 ul#results {
   color: #458514;
