@@ -3,6 +3,7 @@ body {
   color: black;
   font-size: 25px;
   font-family: monospace;
+  text-align: center;
 }
 .jumbotron {
   background-color: black;
@@ -12,4 +13,5 @@ ul#results {
   border: dashed;
   border-color: #2C9E06;
   background-color: #A7DB93;
+  list-style: none;
 }
